@@ -9,18 +9,18 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#first">About us</a></li>
-            <li><a href="#second">Skills</a></li>
-            <li><a href="#third">Portfolio</a></li>
-            <li><a href="#fourth">Contact</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <section>
-        <h1 id="#first">About us</h1>
+        <h1 id="about">About us</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos temporibus maiores vel nesciunt enim necessitatibus unde, provident cumque fugit laudantium quas suscipit reprehenderit quidem aperiam dolorum tempore, rerum voluptatibus? Nemo.</p>
     </section>
     <section>
-        <h1 id="#second">Skills</h1>
+        <h1 id="skills">Skills</h1>
         <div class="skill">
             <h2>Skill 1</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem id at tenetur minus ad placeat ex odio, earum eum architecto inventore quidem maxime officiis amet, explicabo exercitationem omnis fugiat! Velit?</p>
@@ -37,12 +37,30 @@
             <h2>Skill 4</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eaque repellendus obcaecati vel doloremque quasi placeat fuga, blanditiis nam beatae incidunt. Dicta quisquam adipisci sit atque vero eos aperiam quaerat.</p>
         </div>
+    </section>
     <section>
-        <h1 id="#third">Portfolio</h1>
+        <h1 id="portfolio">Portfolio</h1>
         <div class="portfolio-item"><img src="img/s1.jpg" alt="s1"></div><br>
         <div class="portfolio-item"><img src="img/s2.jpg" alt="s2"></div><br>
         <div class="portfolio-item"><img src="img/s3.jpg" alt="s3"></div><br>
     </section>
+    <section>
+        <h1 id="contact">Contact</h1>
+        <h2>Jan Kowalski</h2>
+        <address>
+            ul. Zielona 4 <br>
+            81-567 Radom <br>
+            Poland
+        </address><br>
+        <form>
+            <label for="fname">Imię</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="subject">Temat</label><br>
+            <input type="text" id="subject" name="subject" required><br>
+            <label for="message">Waidomość</label><br>
+            <textarea name="message" rows="10" colls="15" required></textarea><br><br>
+            <input type="submit" value="Wyślij">
+        </form>
     </section>
 </body>
 </html>
